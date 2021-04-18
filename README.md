@@ -5,7 +5,7 @@ Looking at the stiff competition in the telecom industry and the ever-increasing
 
 In this project, we set out to develop a model which would accurately classify a customer as someone who would churn or not so that the telecom companies could use strategic methods to offer lucrative plans to the customer for preventing the churn before it actually does happen. Losing a customer without getting an understanding about the reasons for churn would not help in improving the churn rates. This analysis could be leveraged by the telecom companies to take proactive measures and it would also provide them the opportunity to reach out to customers before they churn to better understand their needs and concerns so that they could make the necessary adjustments.
 
-** Data Description **
+**Data Description**
 
 The dataset on Telecom Churn analysis had 7043 rows and 21 columns. The predictor variables in the dataset had information about customer demographics (like gender, age etc.), information about the services customers have subscribed for and the cost incurred by the customer. The dataset had few missing values which were dropped reducing the dataset to 7032 rows and 21 columns.
 
