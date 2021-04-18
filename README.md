@@ -15,4 +15,23 @@ In order to increase the usability of the dataset, we performed extensive featur
 
 The original dataset had only 26% rows for churn events which would have made it tough for our model to be able to predict churn events on test data or a new dataset (Refer to Figure 11, Appendix). Therefore, we used undersampling technique to balance out the churn and no-churn events. We had a ratio of 1:1 for churn and no-churn in the dataset which we finally used for modeling.
 
-During the data preparation phase, we experimented with the stratify method as well to make sure that the train and test data had similar ratio of churn and no-churn but as it turned out stratify wasn’t able to resolve the imbalance in the dataset and the models were not performing great at predicting churn, though the models were doing great while predicting no-churn
+During the data preparation phase, we experimented with the stratify method as well to make sure that the train and test data had similar ratio of churn and no-churn but as it turned out stratify wasn’t able to resolve the imbalance in the dataset and the models were not performing great at predicting churn, though the models were doing great while predicting no-churn.
+
+
+**Model Description**
+
+Modeling dataset with 3738 rows and 84 columns was split into training and validation in the ratio of 80:20 with stratified target variable. We followed the 4 steps to the models to get an optimized prediction result:
+
+1. Spot-checking - to discover the algorithm which was best suited to solve the business problem.
+We used Logistic Regression, Linear Discriminant Analysis, KNN, Decision Tree Classifier, Gaussian Naïve Bayes, SVC, Bagging Classifier, Random Forest Classifier, Extra Trees Classifier, Gradient Boosting Classifier for spot-checking. Logistic Regression yielded best results for the classification problem with an overall highest accuracy. 
+
+2. Hyperparameter tuning - to modify parameters in the logistic regression and linear discriminant analysis. 
+For Logistic Regression, we tuned penalty and solver parameters and for Linear Discriminant Analysis we tuned solver and tolerance.
+
+3. Permutation feature importance - to get insights about the importance of each variable used in the model. 
+This step gave us the insight that the features like contract-type, gender, payment methods and the services subscribed by the customer played a vital role in making predictions. On the other hand, seemingly important features like monthly charges and total charges paid to the telecom company during the entire length of stay with the company were less important features.
+
+4. Implementation of results of permutation feature importance on logistic regression model. With only important features, the LR model yielded a recall value of 83% which was more than the tuned logistic regression with all the features. 
+
+5. Furthur improvement: Neural network model. 
+Neural Network yielded exceptional results on training data with accuracy of predicting churn in 89% and on validation data it was 80%. We used two hidden layers in the neural network which was a good trade-off between the model accuracy and the model execution time.
