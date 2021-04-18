@@ -1,7 +1,7 @@
 # Telecom-Churn-Analysis
 Customer churn has a huge impact on companies and is the prime focus area for the companies to remain competitive and profitable. It has been observed across multiple industries that it is far easier to retain a customer than to secure a new customer and the telecom industry is no different. Thus, it is vitally important to understand the dynamics of customer churn.  
 
-Looking at the stiff competition in the telecom industry and the ever-increasing demand for high quality yet affordable network plans motivated us to conduct an analysis to study the factors which play a crucial role in determining the churn or no-churn. 
+Looking at the stiff competition in the telecom industry and the ever-increasing demand for high quality yet affordable network plans motivated us to conduct an analysis to study the factors which play a crucial role in determining the *churn* or *no-churn*. 
 
 In this project, we set out to develop a model which would accurately classify a customer as someone who would churn or not so that the telecom companies could use strategic methods to offer lucrative plans to the customer for preventing the churn before it actually does happen. Losing a customer without getting an understanding about the reasons for churn would not help in improving the churn rates. This analysis could be leveraged by the telecom companies to take proactive measures and it would also provide them the opportunity to reach out to customers before they churn to better understand their needs and concerns so that they could make the necessary adjustments.
 
