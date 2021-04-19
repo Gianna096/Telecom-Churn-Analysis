@@ -85,11 +85,11 @@ After using hyperparameter tuning and based on the results in the confusion matr
 
 We refined our model based on these recognized variables. At this time, we included only important features for building a classification model. We build a model in two ways. First, we built a model with top 20 variables which gave an overall accuracy of 0.74 and 0.75 recall. Next, we built which had all the features except the least important 30 variables. It returned an overall accuracy of 0.78 and recall of 0.83. Finally, we concluded that dropping features of lesser importance gives better results. (Refer to Figure 3-3, Figure 3-4)
 <p align="center">
-  <img width="540" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-3.png">
+  <img width="540" height="270" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-3.png">
 </p>
 
 <p align="center">
-  <img width="540" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-4.png">
+  <img width="540" height="270" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-4.png">
 </p>
 
 **Discussion**
