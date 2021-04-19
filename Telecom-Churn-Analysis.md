@@ -75,7 +75,7 @@ With the aim of having the least number of false positives, we tried to reduce t
 
 Hyperparameter tuning for logistic regression further improved the performance of the model. As we see in the confusion matrix for tuned logistic regression model, we get an accuracy rate of 0.77 and get a higher recall rate of 0.82 compared to the previous model. (Refer to Figure 3-2, Table1)
 <p align="center">
-  <img width="460" height="280" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-2.png">
+  <img width="460" height="220" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-2.png">
 </p>
 After using hyperparameter tuning and based on the results in the confusion matrix, we decided that the best model is logistic regression. Subsequently, we performed permutation feature importance to get insights about which variables played a significant role in the model result. Based on the plot of permutation feature importance, we recognized the variables having most positive and negative affect on the model accuracy. (Refer to Figure 4)
 
