@@ -76,14 +76,14 @@ Hyperparameter tuning for logistic regression further improved the performance o
 </p>
 After using hyperparameter tuning and based on the results in the confusion matrix, we decided that the best model is logistic regression. Subsequently, we performed permutation feature importance to get insights about which variables played a significant role in the model result. Based on the plot of permutation feature importance, we recognized the variables having most positive and negative affect on the model accuracy. (Refer to Figure 4)
 <p align="center">
-  <img width="560" height="400" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%204.png">
+  <img width="620" height="500" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%204.png">
 </p>
 We refined our model based on these recognized variables. At this time, we included only important features for building a classification model. We build a model in two ways. First, we built a model with top 20 variables which gave an overall accuracy of 0.74 and 0.75 recall. Next, we built which had all the features except the least important 30 variables. It returned an overall accuracy of 0.78 and recall of 0.83. Finally, we concluded that dropping features of lesser importance gives better results. (Refer to Figure 3-3, Figure 3-4)
 <p align="center">
-  <img width="500" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-3.png">
+  <img width="540" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-3.png">
 </p>
 <p align="center">
-  <img width="500" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-4.png">
+  <img width="540" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-4.png">
 </p>
 **Discussion**
 Customer churn has a huge impact on companies and is the prime focus area for the companies to remain competitive and profitable. Hence, significant research had been undertaken by researchers worldwide to understand the dynamics of customer churn. Customer churn has a huge impact on companies and is the prime focus area for the companies to remain competitive and profitable. Hence, significant research had been undertaken by researchers worldwide to understand the dynamics of customer churn. Customer churn has a huge impact on companies and is the prime focus area for the companies to remain competitive and profitable. Hence, significant research had been undertaken by researchers worldwide to understand the dynamics of customer churn. Churn in the telecom industry, as defined by Berson et al. (2000), is the movement of existing customers from one service provider to another. Customer churn is basically the inclination of a customer to leave a service provider (Phadke et al., 2013; Kirui et al., 2013; Chandar et al., 2006; Coussement and Poel, 2008; Buckinx and Poel, 2005; Bhambri, 2013; Xie et al., 2009; Chen et al., 2012).
