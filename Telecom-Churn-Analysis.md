@@ -64,19 +64,27 @@ Neural Network yielded exceptional results on training data with accuracy of pre
 **Results**
 We implemented spot-checking with 10 different models to determine the algorithm which was best suited to solve the business problem. Our criteria for the best models was based on total accuracy and recall while considering overall model complexity. The logistic regression had a recall rate of .80, giving an accuracy of 0.76. The second best model was linear discriminant analysis which had an accuracy of 0.76.  (Refer to Figure 1 and Figure 3-1)
 
-
 <p align="center">
   <img width="460" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%201.png">
 </p>
 
 With the aim of having the least number of false positives, we tried to reduce this type of misclassification. As it is evident by the confusion matrix of logistic regression, we get true negative 286 which are the customers which will certainly not churn. These customers could be targeted to increase the revenue for the telecom company. Also, this model gives the highest number of true positives - 299, which is the highest when compared to the result produced by other models.
 
-Hyperparameter tuning for logistic regression further improved the performance of the model. As we see in the confusion matrix for tuned logistic regression model, we get an accuracy rate of 0.77 and get a higher recall rate of 0.82 compared to the previous model. 
-
-After using hyperparameter tuning and based on the results in the confusion matrix, we decided that the best model is logistic regression. Subsequently, we performed permutation feature importance to get insights about which variables played a significant role in the model result. Based on the plot of permutation feature importance, we recognized the variables having most positive and negative affect on the model accuracy.
-
-We refined our model based on these recognized variables. At this time, we included only important features for building a classification model. We build a model in two ways. First, we built a model with top 20 variables which gave an overall accuracy of 0.74 and 0.75 recall. Next, we built which had all the features except the least important 30 variables. It returned an overall accuracy of 0.78 and recall of 0.83. Finally, we concluded that dropping features of lesser importance gives better results. 
-
+Hyperparameter tuning for logistic regression further improved the performance of the model. As we see in the confusion matrix for tuned logistic regression model, we get an accuracy rate of 0.77 and get a higher recall rate of 0.82 compared to the previous model. (Refer to Figure 3-2, Table1)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-2.png">
+</p>
+After using hyperparameter tuning and based on the results in the confusion matrix, we decided that the best model is logistic regression. Subsequently, we performed permutation feature importance to get insights about which variables played a significant role in the model result. Based on the plot of permutation feature importance, we recognized the variables having most positive and negative affect on the model accuracy. (Refer to Figure 4)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%204.png">
+</p>
+We refined our model based on these recognized variables. At this time, we included only important features for building a classification model. We build a model in two ways. First, we built a model with top 20 variables which gave an overall accuracy of 0.74 and 0.75 recall. Next, we built which had all the features except the least important 30 variables. It returned an overall accuracy of 0.78 and recall of 0.83. Finally, we concluded that dropping features of lesser importance gives better results. (Refer to Figure 3-3, Figure 3-4)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-3.png">
+</p>
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-4.png">
+</p>
 **Discussion**
 Customer churn has a huge impact on companies and is the prime focus area for the companies to remain competitive and profitable. Hence, significant research had been undertaken by researchers worldwide to understand the dynamics of customer churn. Customer churn has a huge impact on companies and is the prime focus area for the companies to remain competitive and profitable. Hence, significant research had been undertaken by researchers worldwide to understand the dynamics of customer churn. Customer churn has a huge impact on companies and is the prime focus area for the companies to remain competitive and profitable. Hence, significant research had been undertaken by researchers worldwide to understand the dynamics of customer churn. Churn in the telecom industry, as defined by Berson et al. (2000), is the movement of existing customers from one service provider to another. Customer churn is basically the inclination of a customer to leave a service provider (Phadke et al., 2013; Kirui et al., 2013; Chandar et al., 2006; Coussement and Poel, 2008; Buckinx and Poel, 2005; Bhambri, 2013; Xie et al., 2009; Chen et al., 2012).
 Reichheld and Sasser (1990) researched that the revenue earned from retained customers increases over the period. This is pretty intuitive because if a customer has stayed loyal to a telecom company for a long time he must be satisfied with the products and services offered by the company and hence he would not shy away from opting for newer and higher priced services. On the flip side, companies tend to restore to the strategy of offering great pricing to new customers to build the relationship which is not the case in case of loyal customers. 
