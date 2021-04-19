@@ -103,7 +103,7 @@ other researchers divided the customer types into a postpaid and prepaid custome
 Based on our splitting rules of our interactive Tree, we found that “Contract”, “Tenure”, “internet service” variables play an integral role in predicting the churn rate (Refer to Figure 5). These facts will help Telecom to identify in advance what kind of customers are more likely to leave the company and identify the risk in advance. This gives Telecom companies an opportunity to take proactive measures to retain the customers before they actually churn.
 
 <p align="center">
-  <img width="540" height="270" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%205.png">
+  <img width="800" height="400" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%205.png">
 </p>
 
 As we have observed in our analysis, features like tenure, monthly charges, type of contract and payment method are significant features which determine if a customer would churn or not. Telecom companies should try to promote annual and two-year contracts to the new customers as it will reduce the chances of customer churn right away. They could offer plans with premium services at a lower cost along with an annual contract which would encourage new customers to purchase an annual contract. It is highly recommended that Telecom companies adopt different 11 approaches for each type of customer as having the same strategy for everyone would not help in reducing the churn rates. In case of a new client, the company should focus on establishing long term relationships. 
