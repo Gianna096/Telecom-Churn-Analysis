@@ -52,13 +52,16 @@ For Logistic Regression, we tuned penalty and solver parameters and for Linear D
 3. **Permutation feature importance** - to get insights about the importance of each variable used in the model. 
 This step gave us the insight that the features like contract-type, gender, payment methods and the services subscribed by the customer played a vital role in making predictions. On the other hand, seemingly important features like monthly charges and total charges paid to the telecom company during the entire length of stay with the company were less important features.
 
-4. **Implementation of results of permutation feature importance on logistic regression model**. With only important features, the LR model yielded a recall value of 83% which was more than the tuned logistic regression with all the features. 
+4. **Implementation of results of permutation feature importance on logistic regression model**. With only important features, the LR model yielded a recall value of 83% which was more than the tuned logistic regression with all the features. (Refer to Table 1)
+<p align="center">
+  <img width="460" height="500" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Table1.png">
+</p>
 
 5. **Furthur improvement: Neural network model**
 Neural Network yielded exceptional results on training data with accuracy of predicting churn in 89% and on validation data it was 80% (Refer to Figure 3-5 and Figure 3-6). We used two hidden layers in the neural network which was a good trade-off between the model accuracy and the model execution time.
  
 <p align="center">
-  <img width="460" height="500" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-5%2C3-6.png">
+  <img width="460" height="500" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-5%203-6.png">
 </p>
 
 **Results**
