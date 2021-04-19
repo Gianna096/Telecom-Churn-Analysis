@@ -61,7 +61,7 @@ This step gave us the insight that the features like contract-type, gender, paym
 Neural Network yielded exceptional results on training data with accuracy of predicting churn in 89% and on validation data it was 80% (Refer to Figure 3-5 and Figure 3-6). We used two hidden layers in the neural network which was a good trade-off between the model accuracy and the model execution time.
  
 <p align="center">
-  <img width="460" height="500" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-5%203-6.png">
+  <img width="460" height="500" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-5%2C3-6.png">
 </p>
 
 **Results**
