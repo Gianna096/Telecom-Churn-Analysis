@@ -30,7 +30,11 @@ PointPlots (Refer to Figure 8) illustrated that the customer who churned paid si
 
 In order to increase the usability of the dataset, we performed extensive feature engineering for all the predictor variables. Feature engineering for categorical variables was performed using the one-hot encoding technique. Feature engineering for numeric variables was performed using log features, polynomial features and interaction terms. The concatenated dataset had 11 columns, then we dropped original categorical variables from the dataset to reduce the redundant information in the dataset giving us the dataset with 7032 rows and 84 columns. Following this, we performed min-max standardization to make sure that the scale of certain numeric features does not have an impact during modeling.
 
-The original dataset had only 26% rows for churn events which would have made it tough for our model to be able to predict churn events on test data or a new dataset (Refer to Figure 11, Appendix). Therefore, we used undersampling technique to balance out the churn and no-churn events. We had a ratio of 1:1 for churn and no-churn in the dataset which we finally used for modeling.
+The original dataset had only 26% rows for churn events which would have made it tough for our model to be able to predict churn events on test data or a new dataset (Refer to Figure 11). Therefore, we used undersampling technique to balance out the churn and no-churn events. We had a ratio of 1:1 for churn and no-churn in the dataset which we finally used for modeling.
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%211.png">
+</p>
 
 During the data preparation phase, we experimented with the stratify method as well to make sure that the train and test data had similar ratio of churn and no-churn but as it turned out stratify wasn’t able to resolve the imbalance in the dataset and the models were not performing great at predicting churn, though the models were doing great while predicting no-churn.
 
