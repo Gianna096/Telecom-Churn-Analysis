@@ -33,7 +33,7 @@ In order to increase the usability of the dataset, we performed extensive featur
 The original dataset had only 26% rows for churn events which would have made it tough for our model to be able to predict churn events on test data or a new dataset (Refer to Figure 11). Therefore, we used undersampling technique to balance out the churn and no-churn events. We had a ratio of 1:1 for churn and no-churn in the dataset which we finally used for modeling.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%211.png">
+  <img width="460" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%2011.png">
 </p>
 
 During the data preparation phase, we experimented with the stratify method as well to make sure that the train and test data had similar ratio of churn and no-churn but as it turned out stratify wasn’t able to resolve the imbalance in the dataset and the models were not performing great at predicting churn, though the models were doing great while predicting no-churn.
@@ -60,7 +60,8 @@ Neural Network yielded exceptional results on training data with accuracy of pre
 **Results**
 We implemented spot-checking with 10 different models to determine the algorithm which was best suited to solve the business problem. 
 Our criteria for the best models was based on total accuracy and recall while considering overall model complexity. 
-The logistic regression had a recall rate of .80, giving an accuracy of 0.76. The second best model was linear discriminant analysis which had an accuracy of 0.76.
+The logistic regression had a recall rate of .80 (Refer to Figure 3-5 and Figure 3-6), giving an accuracy of 0.76. The second best model was linear discriminant analysis which had an accuracy of 0.76.
+
 
 With the aim of having the least number of false positives, we tried to reduce this type of misclassification. As it is evident by the confusion matrix of logistic regression, we get true negative 286 which are the customers which will certainly not churn. These customers could be targeted to increase the revenue for the telecom company. Also, this model gives the highest number of true positives - 299, which is the highest when compared to the result produced by other models.
 
