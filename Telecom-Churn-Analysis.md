@@ -54,7 +54,7 @@ This step gave us the insight that the features like contract-type, gender, paym
 
 4. **Implementation of results of permutation feature importance on logistic regression model**. With only important features, the LR model yielded a recall value of 83% which was more than the tuned logistic regression with all the features. (Refer to Table 1)
 <p align="center">
-  <img width="460" height="500" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Table%201.png">
+  <img width="460" height="400" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Table%201.png">
 </p>
 
 5. **Furthur improvement: Neural network model**
@@ -88,7 +88,9 @@ We refined our model based on these recognized variables. At this time, we inclu
 <p align="center">
   <img width="540" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-4.png">
 </p>
+
 **Discussion**
+
 Customer churn has a huge impact on companies and is the prime focus area for the companies to remain competitive and profitable. Hence, significant research had been undertaken by researchers worldwide to understand the dynamics of customer churn. Customer churn has a huge impact on companies and is the prime focus area for the companies to remain competitive and profitable. Hence, significant research had been undertaken by researchers worldwide to understand the dynamics of customer churn. Customer churn has a huge impact on companies and is the prime focus area for the companies to remain competitive and profitable. Hence, significant research had been undertaken by researchers worldwide to understand the dynamics of customer churn. Churn in the telecom industry, as defined by Berson et al. (2000), is the movement of existing customers from one service provider to another. Customer churn is basically the inclination of a customer to leave a service provider (Phadke et al., 2013; Kirui et al., 2013; Chandar et al., 2006; Coussement and Poel, 2008; Buckinx and Poel, 2005; Bhambri, 2013; Xie et al., 2009; Chen et al., 2012).
 Reichheld and Sasser (1990) researched that the revenue earned from retained customers increases over the period. This is pretty intuitive because if a customer has stayed loyal to a telecom company for a long time he must be satisfied with the products and services offered by the company and hence he would not shy away from opting for newer and higher priced services. On the flip side, companies tend to restore to the strategy of offering great pricing to new customers to build the relationship which is not the case in case of loyal customers. 
 
@@ -96,6 +98,7 @@ For current customers, companies tend to market their premium products and premi
 Other researchers divided the customer types into a postpaid and prepaid customer. As prepaid customers do not contract with service, so it is quite difficult to predict this kind of customer’s churn rate. As they researched prepaid customers, they found that network coverage and reception quality might influence customers to move to another company with a broader reach and better reception quality. Factors such as packaging prices, inadequate features, and older technology can also cause customers to leave the company service. Customers often compare their company services with others and churn to whoever they feel provides better overall value. When they divided the customer types into two types, they found that customers who did not have loyalty yet, they can leave the service for the simple reason. Thus, the company should propose, investigate, and design the strategy in a multidimensional way.
 
 **Conclusions and Next Steps**
+
 Based on our splitting rules of our interactive Tree, we found that “Contract”, “Tenure”, “internet service” variables play an integral role in predicting the churn rate. Refer to Figure 5, Appendix. These facts will help Telecom to identify in advance what kind of customers are more likely to leave the company and identify the risk in advance. This gives Telecom companies an opportunity to take proactive measures to retain the customers before they actually churn.
 
 As we have observed in our analysis, features like tenure, monthly charges, type of contract and payment method are significant features which determine if a customer would churn or not. Telecom companies should try to promote annual and two-year contracts to the new customers as it will reduce the chances of customer churn right away. They could offer plans with premium services at a lower cost along with an annual contract which would encourage new customers to purchase an annual contract. It is highly recommended that Telecom companies adopt different 11 approaches for each type of customer as having the same strategy for everyone would not help in reducing the churn rates. In case of a new client, the company should focus on establishing long term relationships. 
