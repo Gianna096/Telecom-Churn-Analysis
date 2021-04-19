@@ -58,7 +58,7 @@ This step gave us the insight that the features like contract-type, gender, paym
 Neural Network yielded exceptional results on training data with accuracy of predicting churn in 89% and on validation data it was 80% (Refer to Figure 3-5 and Figure 3-6). We used two hidden layers in the neural network which was a good trade-off between the model accuracy and the model execution time.
  
 <p align="center">
-  <img width="460" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-5%2C3-6.png">
+  <img width="460" height="500" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%203-5%2C3-6.png">
 </p>
 
 **Results**
@@ -66,7 +66,7 @@ We implemented spot-checking with 10 different models to determine the algorithm
 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%201.png">
+  <img width="460" height="600" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%201.png">
 </p>
 
 With the aim of having the least number of false positives, we tried to reduce this type of misclassification. As it is evident by the confusion matrix of logistic regression, we get true negative 286 which are the customers which will certainly not churn. These customers could be targeted to increase the revenue for the telecom company. Also, this model gives the highest number of true positives - 299, which is the highest when compared to the result produced by other models.
