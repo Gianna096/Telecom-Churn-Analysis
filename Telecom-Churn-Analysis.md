@@ -54,7 +54,7 @@ This step gave us the insight that the features like contract-type, gender, paym
 
 4. **Implementation of results of permutation feature importance on logistic regression model**. With only important features, the LR model yielded a recall value of 83% which was more than the tuned logistic regression with all the features. (Refer to Table 1)
 <p align="center">
-  <img width="460" height="360" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Table%201.png">
+  <img width="460" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Table%201.png">
 </p>
 
 5. **Furthur improvement: Neural network model**
