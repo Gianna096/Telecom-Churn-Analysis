@@ -11,7 +11,22 @@ The dataset on Telecom Churn analysis had 7043 rows and 21 columns. The predicto
 
 During Exploratory Data Analysis, we found some interesting details like senior citizens on average pay higher monthly bills than others (Refer to Figure 6) and people with annual contracts are less likely to churn as compared to people with monthly contracts (Refer to Figure 7).
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%206.png">
+</p>
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%207.png">
+</p>
+
 PointPlots (Refer to Figure 8) illustrated that the customer who churned paid significantly lower total charges, irrespective of type of internet service, as compared to people who did not churn but for the contract type, things are opposite. Exploratory data analysis gave us a clear insight that people tend to churn less with increase in tenure (Refer to Figure 9).
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%208.png">
+</p>
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Gianna096/Telecom-Churn-Analysis/blob/main/figures/Figure%209.png">
+</p>
 
 In order to increase the usability of the dataset, we performed extensive feature engineering for all the predictor variables. Feature engineering for categorical variables was performed using the one-hot encoding technique. Feature engineering for numeric variables was performed using log features, polynomial features and interaction terms. The concatenated dataset had 11 columns, then we dropped original categorical variables from the dataset to reduce the redundant information in the dataset giving us the dataset with 7032 rows and 84 columns. Following this, we performed min-max standardization to make sure that the scale of certain numeric features does not have an impact during modeling.
 
